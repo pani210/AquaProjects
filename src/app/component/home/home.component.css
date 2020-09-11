@@ -1,0 +1,46 @@
+/* Banner image */
+.banner-container{
+    background-image: url('../../../assets/Restaurant_Banner.jpg');
+    background-size: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+}
+.banner-container h1{
+    font-size: 40px;
+    font-family: 'Permanent Marker', cursive;
+}
+.stylings-container img{
+    width: 100%;
+    height: 200px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+ .stylings-container{
+    width: 29%;
+    margin: 1%;
+    padding: 1%;
+    justify-content: space-around;
+    color: black;
+    background-color: wheat;
+    border: 1px solid black;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.stylings-container button:hover{
+    background-color: burlywood;
+}
+/* Media queries for mobile */
+@media only screen and (min-width:320px) and (max-widht:723px){
+
+}
+/* media queries for tab mode */
+@media only screen and (min-width:768px) and (max-width:1023px){
+
+}

@@ -1,0 +1,21 @@
+<div class="banner-container">
+    <!-- <p>home works!</p> -->
+    <h1>Welcome to lovely Restaurants</h1>
+</div><br>
+
+<div class="form-group"><strong>Search for your Restaurant:</strong> 
+        <input type="text" class="form-control" placeholder="Search for restaurant" style="width:300px;" [(ngModel)]="searchTerm" (input)="Search()"/>
+             </div>
+<div class="container">
+    <div *ngFor="let data of resta" class="stylings-container">
+        <h4 style="text-align: center;"><strong>{{data.name}}</strong></h4> 
+        <img src="{{data.photograph}}"alt="image">
+        <p><b>The {{data.neighborhood}} Restaurant</b></p>
+        <div style="text-align: center;">
+            <button>know more</button>
+        </div>
+        
+    </div>
+</div>
+
+
